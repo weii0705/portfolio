@@ -1,8 +1,12 @@
+body {
+    margin: 0;
+}
 header {
     padding-top: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    height: 952px;
 }
 .menu {
     display: flex;
@@ -15,7 +19,7 @@ header {
     height: 86px;
 }
 .bar {
-    background-color: #FD853A;
+    background-color: #171717;
     border-radius: 60px;
     padding: 20px 40px;
 }
@@ -39,6 +43,8 @@ header {
 }
 .info {
     position: relative;
+    display: flex;
+    align-items: center;
 }
 .title-frame {
     position: absolute;
@@ -52,7 +58,8 @@ header {
 .title-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
     gap: 10px;
 }
 .hello-label {
@@ -76,4 +83,236 @@ header {
 }
 .small-text {
     font-size: 20px;
+}
+.title {
+    font-size: 95px;
+    text-align: center;
+    width: 913px;
+    line-height: 100%;
+}
+.title-color {
+    color: #FD853A;
+}
+.line-svg2 {
+    rotate: 167.61deg;
+    width: 71px;
+    height: 74px;
+    position: absolute;
+    top: 255px;
+    left: 25px;
+
+}
+.left-frame {
+    position: absolute;
+    top: 373px;
+    left: -700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 24px;
+}
+.quote-icon {
+    width: 36px;
+    height: 36px;
+}
+.left-text {
+    width: 350px;
+    font-size: 20px;
+}
+.right-frame {
+    position: absolute;
+    top: 380px;
+    left: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 20px;
+}
+.star-bar {
+    display: flex;
+    align-items: center;
+}
+.expe-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.year {
+    font-weight: bold;
+    font-size: 30px;
+}
+.center-frame {
+    position: relative;
+    top: 50px;
+}
+.ellipse1 {
+    position: absolute;
+    top: 410px;
+    z-index: 1;
+    left: -420px;
+}
+.woman {
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+    left: -490px;
+}
+.small-bar {
+    position: absolute;
+    z-index: 3;
+    top: 740px;
+    left: -205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 10px;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    border: 2px solid rgba(201,201,201,0.1);
+    backdrop-filter: blur(10px);
+}
+.hover {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FD853A;
+    border-radius: 60px;
+    border: 0.5px #D0D5DD solid;
+}
+.bar-label {
+    font-size: 25px;
+    color: #fff;
+}
+.service-container {
+    display: flex;
+    flex-direction: column;
+    padding: 116px 71px;
+    gap: 96px;
+    border-radius: 50px;
+    background: 
+        url("asset/icon/black.png") center/cover
+        #171717;
+}
+.service-title {
+    display: flex;
+    justify-content: space-between;
+}
+.service-text {
+    font-size: 48px;
+    color: #FD853A;
+}
+.service-dis {
+    width: 576px;
+    color: #fff;
+    font-size: 20px;
+}
+.service-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+}
+.service-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.service-dots {
+    display: flex;
+    gap: 10px;
+}
+.rectangle {
+    width: 60px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #FD853A;
+}
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #E4E7EC;
+}
+.work-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 71px;
+    height: 800px;
+}
+.work-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 85px 0;
+    width: 100%;
+}
+.big-text {
+    font-size: 64px;
+    color: #FD853A;
+}
+.work-frame {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 102px;
+}
+.company-item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.mid-text {
+    font-size: 40px;
+    color: #344054;
+}
+.date {
+    font-size: 24px;
+    color: #98A2B3;
+}
+.line-circle {
+    width: 60px;
+}
+.reason-container {
+    display: flex;
+    flex-direction: column;
+    padding: 122px 71px;
+    gap: 96px;
+    border-radius: 50px;
+    background-color: #F2F4F7;
+}
+.reason-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.reason-content {
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+}
+.reason-item {
+    display: flex;
+    gap: 50px;
+}
+.hirebutton {
+    display: flex;
+    width: fit-content;
+    padding: 33px 59px;
+    border-radius: 32px;
+    border: 1px #171717 solid;
 }
