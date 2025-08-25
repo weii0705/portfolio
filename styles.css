@@ -1,0 +1,79 @@
+header {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 50px;
+    background-color: #171717;
+    width: 90%;
+    height: 86px;
+}
+.bar {
+    background-color: #FD853A;
+    border-radius: 60px;
+    padding: 20px 40px;
+}
+.bar-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo {
+    width: 300px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo-text {
+    font-size: 35px;
+    color: #fff;
+    font-weight: bolder;
+}
+.info {
+    position: relative;
+}
+.title-frame {
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.hello-label {
+    position: relative;
+    width: 127px;
+    height: 74px;
+}
+.line-svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.hello-icon {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    text-align: center;
+    border: #171717 1px solid;
+    border-radius: 38px;
+    padding: 12px 25px;
+}
+.small-text {
+    font-size: 20px;
+}
