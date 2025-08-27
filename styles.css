@@ -546,12 +546,14 @@ header {
 }
 .post-btn {
     position: absolute;
-    top: 318px;
+    top: 310px;
     left: 302px;
     display: flex;
     padding: 21px;
     justify-content: center;
     align-items: center;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #1D2939;
 }
@@ -581,4 +583,95 @@ header {
 }
 .post-text {
     font-size: 32px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 25px 71px;
+    border-radius: 24px 24px 0 0;
+    gap: 20px;
+    background-color: #272727;
+}
+.footer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.big-text.white {
+    color: white;
+}
+.line {
+    width: 100%;
+    border: 2px #475467 solid;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: auto;
+}
+.self-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 239px;
+    gap: auto;
+}
+.footer-logo {
+    display: flex;
+    gap: 10px;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+.social {
+    display: flex;
+    gap: 5px;
+}
+.small-text.white {
+    color: white;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.info-text {
+    font-size: 24px;
+    color: #FD853A;
+}
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.email-cont {
+    display: flex;
+}
+.email-text {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 13px 14px;
+    border-radius: 14px 0 0 14px;
+    background-color: white;
+    width: max(258px, 90%);
+}
+.email-send {
+    display: flex;
+    gap: 10px;
+    padding: 10px 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 14px 14px 0;
+    background-color: #FD853A;
+}
+.footer-title.low {
+    height: 50px;
 }
