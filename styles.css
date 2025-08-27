@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    scroll-padding-top: 125px;
+}
 body {
     margin: 0;
 }
@@ -9,6 +15,8 @@ header {
     height: 952px;
 }
 .menu {
+    position: fixed;
+    z-index: 5;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,10 +31,14 @@ header {
     border-radius: 60px;
     padding: 20px 40px;
 }
-.bar-text {
+.bar.active {
+    background-color: #FD853A;
+}
+.link {
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    text-decoration: none;
 }
 .logo {
     width: 300px;
@@ -42,6 +54,7 @@ header {
     font-weight: bolder;
 }
 .info {
+    top: 90px;
     position: relative;
     display: flex;
     align-items: center;
@@ -150,14 +163,14 @@ header {
 }
 .ellipse1 {
     position: absolute;
-    top: 410px;
+    top: 406px;
     z-index: 1;
     left: -420px;
 }
 .woman {
     position: absolute;
     z-index: 2;
-    top: 180px;
+    top: 177px;
     left: -490px;
 }
 .small-bar {
