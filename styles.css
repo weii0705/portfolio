@@ -2,13 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 :root {
-    scroll-padding-top: 125px;
+    scroll-padding-top: 20px;
 }
 body {
     margin: 0;
 }
 header {
-    padding-top: 40px;
+    padding-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
